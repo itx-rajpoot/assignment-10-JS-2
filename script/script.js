@@ -57,7 +57,6 @@ document.getElementById("ifelseif").onclick = function () {
     }
 }
 document.getElementById("sets_of_conditions").onclick = function () {
-    var_statement.innerHTML = "";
     let age = +prompt('Enter Your Age :');
     let weight = +prompt('Enter Your Weight :');
     if (age > 0 && age < 18) {
